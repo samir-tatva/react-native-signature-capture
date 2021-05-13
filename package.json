@@ -1,0 +1,57 @@
+{
+  "_from": "git+https://github.com/esauter5/react-native-signature-capture.git#2d9bd44a587d7ccd988fedf4d1a21543354ddc2f",
+  "_id": "react-native-signature-capture@0.4.9",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/react-native-signature-capture",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "react-native-signature-capture@git+https://github.com/esauter5/react-native-signature-capture.git#2d9bd44a587d7ccd988fedf4d1a21543354ddc2f",
+    "name": "react-native-signature-capture",
+    "escapedName": "react-native-signature-capture",
+    "rawSpec": "git+https://github.com/esauter5/react-native-signature-capture.git#2d9bd44a587d7ccd988fedf4d1a21543354ddc2f",
+    "saveSpec": "git+https://github.com/esauter5/react-native-signature-capture.git#2d9bd44a587d7ccd988fedf4d1a21543354ddc2f",
+    "fetchSpec": "https://github.com/esauter5/react-native-signature-capture.git",
+    "gitCommittish": "2d9bd44a587d7ccd988fedf4d1a21543354ddc2f"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/esauter5/react-native-signature-capture.git#2d9bd44a587d7ccd988fedf4d1a21543354ddc2f",
+  "_spec": "react-native-signature-capture@git+https://github.com/esauter5/react-native-signature-capture.git#2d9bd44a587d7ccd988fedf4d1a21543354ddc2f",
+  "_where": "/Users/pcq221/Documents/Projects2/maptrak2.0-driver-app",
+  "author": {
+    "name": "RepairShopr"
+  },
+  "bugs": {
+    "url": "https://github.com/RepairShopr/react-native-signature-capture/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "prop-types": "^15.5.10"
+  },
+  "deprecated": false,
+  "description": "Lets users sign their signatures",
+  "homepage": "https://github.com/RepairShopr/react-native-signature-capture#readme",
+  "keywords": [
+    "react-component",
+    "react-native",
+    "ios",
+    "signature"
+  ],
+  "license": "ISC",
+  "main": "SignatureCapture.js",
+  "name": "react-native-signature-capture",
+  "peerDependencies": {
+    "react-native": ">=0.47"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RepairShopr/react-native-signature-capture.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.4.9"
+}
