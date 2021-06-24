@@ -24,7 +24,7 @@ class SignatureCapture extends React.Component {
             return;
         }
         this.props.onSaveEvent({
-            pathName: event.pathName,
+            pathName: event.nativeEvent.pathName,
             encoded: event.nativeEvent.encoded,
         });
     }
@@ -71,6 +71,9 @@ SignatureCapture.propTypes = {
     showNativeButtons: PropTypes.bool,
     showTitleLabel: PropTypes.bool,
     maxSize:PropTypes.number,
+    minStrokeWidth: PropTypes.number,
+    maxStrokeWidth: PropTypes.number,
+    strokeColor: PropTypes.string,
     onSaveEvent: PropTypes.func,
     onDragEvent: PropTypes.func,
 };

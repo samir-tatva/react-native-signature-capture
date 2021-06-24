@@ -197,6 +197,18 @@ public class RSSignatureCaptureView extends View {
 		}
 	}
 
+	public void setMinStrokeWidth(int minStrokeWidth) {
+		mMinWidth = minStrokeWidth;
+	}
+
+	public void setMaxStrokeWidth(int maxStrokeWidth) {
+		mMaxWidth = maxStrokeWidth;
+	}
+
+	public void setStrokeColor(int color) {
+		mPaint.setColor(color);
+	}
+	
 	private float strokeWidth(float velocity) {
 		return Math.max(mMaxWidth / (velocity + 1), mMinWidth);
 	}
